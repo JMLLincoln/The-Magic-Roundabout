@@ -1,0 +1,4 @@
+Take a string
+n = length of string / 2
+For every letter (l) in the original string,
+output a word that has the letter l at position n
