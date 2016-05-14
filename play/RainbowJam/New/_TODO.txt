@@ -1,0 +1,9 @@
+Make a .txt file with 5 times from 11am - 2pm and a single program/application next to the time, E.G.
+
+11:15 Chrome
+12:10 League of Legends
+12:15 Notepad
+12:30 Github Client
+13:00 Spotify
+
+The program will be executed before the first time and should open each application at the time specified.
