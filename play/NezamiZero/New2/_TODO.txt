@@ -1,0 +1,16 @@
+Take a sequence of random integers (about 100)
+iterate through the sequence 
+do the following based on the value of each integer:
+
+1: pop it
+2: append to a second list
+3: insert another 3 three spaces before (looping around if at the beginning)
+4: carry out the function for the integer at position: [current index position / 4]
+5: reverse the elements 5 spaces around this position e.g. AA5BB becomes BB5AA
+6: add one on to a counter
+7: do noting
+8: remove counter number of items from the beginning of the list
+9: get the count of 3s, divide that by 3 and turn that many into 9s
+
+
+Always round down
