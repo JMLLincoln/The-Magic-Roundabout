@@ -1,9 +1,9 @@
-Take a sequence of random integers (about 100)
+Take a sequence of random integers, 1-9 (100+)
 iterate through the sequence 
 do the following based on the value of each integer:
 
 1: pop it
-2: append to a second list
+2: append a 2 to a second list
 3: insert another '3' 3 spaces before (looping around if at the beginning)
 4: carry out the function for the integer at position: [current index position / 4]
 5: reverse the elements 5 spaces around this position e.g. AA5BB becomes BB5AA
