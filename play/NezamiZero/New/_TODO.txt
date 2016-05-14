@@ -1,12 +1,23 @@
 Take an image file
-Get the values for each pixel
+Get the RGB values for each pixel
 
 for each pixel:
-if the value is between 0 and 80,
-	set the value 0
-if the value is between 81 and 170,
-	set the value to 127
-if the value is between 171 and 255,
-	set the value to 255
+if the average of RGB values is between 0 and 80,
+	set the value of:
+		R to 90
+		G to 30
+		B to 30
+
+if the average of RGB values is between 81 and 170,
+	set the value of:
+		R to 90
+		G to 45
+		B to 45
+
+if the average of RGB values is between 171 and 255,
+	set the value of:
+		R to 255
+		G to 60
+		B to 60
 
 output the new value to an image file
