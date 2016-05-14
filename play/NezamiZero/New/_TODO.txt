@@ -1,0 +1,12 @@
+Take an image file
+Get the values for each pixel
+
+for each pixel:
+if the value is between 0 and 80,
+	set the value 0
+if the value is between 81 and 170,
+	set the value to 127
+if the value is between 171 and 255,
+	set the value to 255
+
+output the new value to an image file
