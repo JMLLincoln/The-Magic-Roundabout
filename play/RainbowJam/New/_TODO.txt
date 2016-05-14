@@ -1,0 +1,17 @@
+Taking an unordered League of Legends scoreboard (one side), replacing champion names with positions, EG:
+
+SUPPORT
+JUNGLE
+MID
+TOP
+ADC
+
+Get to the following order:
+
+TOP
+JUNGLE
+MID
+ADC
+SUPPORT
+
+In the least amount of moves. Moving X position to Y's spot will move Y to X's previous spot. Write a program that takes any arrangement of League of Legends positions and works out the fastest way to sort them.
