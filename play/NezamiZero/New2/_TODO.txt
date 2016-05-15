@@ -3,14 +3,29 @@ iterate through the sequence
 do the following based on the value of each integer:
 
 1: pop it
-2: append a 2 to a second list
+2: append a 2 to a second sequence
 3: insert another '3' 3 spaces before (looping around if at the beginning)
 4: carry out the function for the integer at position: [current index position / 4]
 5: reverse the elements 5 spaces around this position e.g. AA5BB becomes BB5AA
 6: add one on to a counter
 7: do noting
-8: remove counter number of items from the beginning of the list
+8: remove counter number of items from the beginning of the sequence and reset counter
 9: get the count of 3s, divide that by 3 and turn that many into 9s
 
+Then randomly distribute the sequence of 2s throughout the main sequence
 
 Always round down
+
+Here, have a sequence of 100:
+sequence = [
+    8,3,2,7,4,9,8,1,7,4,
+    9,1,7,5,6,3,8,1,5,3,
+    8,3,5,2,7,9,2,1,5,4,
+    1,2,4,9,8,1,4,7,9,1,
+    8,2,7,1,2,9,5,8,7,1,
+    5,2,9,8,2,3,5,7,6,3,
+    2,3,5,7,6,1,2,5,8,6,
+    7,9,8,6,7,9,6,8,5,6,
+    9,8,1,7,2,4,9,8,3,7,
+    4,9,8,1,4,2,7,9,8,1
+    ]
