@@ -1,0 +1,9 @@
+The user inputs a sentence with an amount of words "n"
+The program opens up "n" websites from a list of 30 websites.
+The 1st website will look for the 1st word in the sentence and saves the words to the left and right of the searched word in an array.
+The 2nd website will look for the 2nd word in the sentence and saves the words to the left and right of the searched word in an array.
+etc
+
+If a website can't find the specific word it moves onto another. If all websites are used without the word being found, it informs the user.
+
+After the whole sentenced has been processed, the array containing nx2 words is filtered out and left with only words that started with the same letter as the first letter of the original sentence, then each word is printed out.
